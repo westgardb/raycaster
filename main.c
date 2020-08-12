@@ -389,6 +389,22 @@ int main(int argc, char* argv[]) {
 							player.rvel = player.rspeed;
 							//logPlayerInfo(&player);
 							break;
+						case SDLK_UP:
+							player.speed = player.maxSpeed;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_LEFT:
+							player.rvel = -1 * player.rspeed;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_DOWN:
+							player.speed = -0.7 * player.maxSpeed;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_RIGHT:
+							player.rvel = player.rspeed;
+							//logPlayerInfo(&player);
+							break;
 					}
 					break;
 
@@ -410,6 +426,22 @@ int main(int argc, char* argv[]) {
 							//logPlayerInfo(&player);
 							break;
 						case 'd':
+							player.rvel = 0;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_UP:
+							player.speed = 0;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_LEFT:
+							player.rvel = 0;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_DOWN:
+							player.speed = 0;
+							//logPlayerInfo(&player);
+							break;
+						case SDLK_RIGHT:
 							player.rvel = 0;
 							//logPlayerInfo(&player);
 							break;
