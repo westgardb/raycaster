@@ -2,6 +2,8 @@
 
 A simple implementation of raycasting in C and [SDL2](https://www.libsdl.org/)
 
+![Sample screenshot](https://github.com/westgardb/raycaster/blob/master/example.png)
+
 ## Installation
 
 Clone the repository, then make and run the program. [SDL2](https://www.libsdl.org/) is a required dependency.
