@@ -10,7 +10,7 @@
 #define WIDTH 1280
 #define HEIGHT 720
 
-// 90 degree field of view expressed in radians
+// 70 degree field of view expressed in radians
 #define FOV 1.3962634016
 #define WALLHEIGHT 500
 
@@ -347,7 +347,7 @@ int main(int argc, char* argv[]) {
 	player.yvel = 0;
 	player.rvel = 0;
 	player.speed = 0;
-	player.maxSpeed = 0.02;
+	player.maxSpeed = 0.03;
 	player.rspeed = 0.03;
 	player.angle = 0;
 	player.hitDist = 0.06;
